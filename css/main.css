@@ -1,0 +1,304 @@
+/* base */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+html,
+body {
+    background-color: #ffffff;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Piazzolla', serif;
+}
+
+a,
+a:hover {
+    color: #000000 !important;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: 'Piazzolla', serif;
+    border: none;
+    outline: none;
+    margin: 0px;
+    box-shadow: none !important;
+}
+
+input:hover,
+button:hover {
+    border: 0;
+    outline: none;
+    margin: 0px;
+    box-shadow: none !important;
+}
+
+input:focus,
+button:focus {
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+    margin: 0px;
+}
+
+.row {
+    flex-wrap: nowrap !important;
+}
+
+.container-big {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1800px;
+    padding: 0 5px 0 5px;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1400px;
+        padding: 0 8px 0 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 768px;
+        padding: 0 5px 0 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 5px 0 5px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1400px;
+        padding: 0 8px 0 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 768px;
+        padding: 0 5px 0 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+.title-medium {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 67px;
+}
+
+.btn-medium {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px 45px !important;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+
+.btn-medium:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+
+/* base */
+
+
+/* navigation */
+
+.logo img {
+    margin-right: 135px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    padding: 0px !important;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    transition: .4s;
+}
+
+.nav-link::after {
+    content: '';
+    width: 0%;
+    height: 2.5px;
+    display: table;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    background: linear-gradient(90deg, #00D900 -0.39%, #FCFE00 100%);
+    transition: width 0.4s ease-out;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    font-weight: 900;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+}
+
+.nav-number {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    background: #08A652;
+    border-radius: 9px;
+    padding: 15px 30px !important;
+    transition: 0.3s;
+}
+
+.nav-number:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.nav-number a {
+    color: #ffffff !important;
+    letter-spacing: 0.6px;
+}
+
+
+/* navigation */
+
+
+/* header */
+
+.approval {
+    padding-top: 95px;
+    margin-bottom: 150px;
+    background: #F0F3F6;
+    border-radius: 20px;
+}
+
+.approval-block {
+    margin-left: 150px;
+    padding-bottom: 80px;
+}
+
+.approval-title {
+    width: 455px;
+}
+
+.approval-rate {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    width: 375px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.approval-rate span {
+    color: #08A652;
+}
+
+.approval-help {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.approval-list {
+    margin-bottom: 50px;
+}
+
+.approval-list__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 380px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.approval-list__item::after {
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 10px;
+    content: '';
+    display: table;
+    background-image: url(../img/header/ok-svg.svg);
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.approval-btn {
+    background: #08A652;
+    color: #ffffff;
+}
+
+
+/* header */
