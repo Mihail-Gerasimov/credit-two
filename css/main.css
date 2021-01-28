@@ -167,6 +167,29 @@ button:focus {
     transition: 0.3s;
 }
 
+@media (max-width:1120px) {
+    .btn-medium {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 15px 30px !important;
+        border-radius: 9px;
+        transition: 0.3s;
+    }
+}
+
+.title-two-level {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.title-two-level {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+}
+
 
 /* base */
 
@@ -300,5 +323,67 @@ button:focus {
     color: #ffffff;
 }
 
+.subblock--semicircle {
+    width: auto;
+}
+
+.subblock--couple {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(25%);
+}
+
 
 /* header */
+
+
+/* active */
+
+.active {
+    margin-bottom: 150px;
+}
+
+.active-block__credit {
+    margin-top: 65px;
+}
+
+.active-title {
+    width: 480px;
+}
+
+.block__credit--take {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    width: 440px;
+}
+
+.block__card--item {
+    background: linear-gradient(132.42deg, #08A652 36.89%, #EAFC1F 171.19%);
+    border-radius: 10px;
+    color: #fff;
+    padding: 60px 0 50px 40px;
+}
+
+.card--item__title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    width: 240px;
+}
+
+.card--iten__descroption {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 160px;
+}
+
+.card--item__picture {
+    bottom: -10px;
+    right: -15px;
+}
+
+
+/* active */
