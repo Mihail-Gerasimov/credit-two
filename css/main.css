@@ -184,10 +184,32 @@ button:focus {
     line-height: 50px;
 }
 
-.title-two-level {
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 50px;
+@media (max-width:1390px) {
+    .title-two-level {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title-two-level {
+        font-size: 27px;
+        line-height: 37px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title-two-level {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title-two-level {
+        font-size: 24px;
+        line-height: 34px;
+    }
 }
 
 
@@ -332,6 +354,10 @@ button:focus {
     left: 0;
     bottom: 0;
     transform: translateX(25%);
+}
+
+.approval-picture__subblock {
+    margin-right: 25px;
 }
 
 
