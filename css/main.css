@@ -508,7 +508,7 @@ button:focus {
 /* probabiliti */
 
 .probabiliti {
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
 }
 
 .para {
@@ -517,28 +517,38 @@ button:focus {
 }
 
 .difficulti-case__title {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     width: 580px;
+    padding-top: 20px;
 }
 
 .problem-list__block {
     margin-right: 80px;
 }
 
-.list__left--item {
-    padding-left: 30px;
+.list__problem--item {
+    padding-left: 20px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    width: 300px;
+    width: 350px;
+    position: relative;
 }
 
-.list__right--item {
-    padding-left: 30px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    width: 330px;
+.list__problem--item:nth-child(2) {
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.list__problem--item::before {
+    position: absolute;
+    content: '';
+    height: 8px;
+    width: 8px;
+    background: #08A652;
+    top: 27px;
+    left: 0;
+    border-radius: 50%;
 }
 
 

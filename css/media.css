@@ -35,6 +35,14 @@
     /* header */
 }
 
+@media (max-width:1570px) {
+    /* probabiliti */
+    .para {
+        margin-left: 0px;
+    }
+    /* probabiliti */
+}
+
 @media (max-width:1550px) {
     /* header */
     .approval {
@@ -164,6 +172,30 @@
         width: 465px;
     }
     /* header */
+    /* probabiliti */
+    .para {
+        width: 460px;
+        margin-right: 55px;
+    }
+    .difficulti-case__title {
+        margin-bottom: 20px;
+        width: 375px;
+        padding-top: 20px;
+    }
+    .list__problem--item {
+        font-size: 16px;
+        line-height: 22px;
+        width: 310px;
+    }
+    .list__problem--item {
+        font-size: 14px;
+        line-height: 20px;
+        width: 310px;
+    }
+    .problem-list__block {
+        margin-right: 30px;
+    }
+    /* probabiliti */
 }
 
 @media (max-width:1390px) {
@@ -256,6 +288,33 @@
         right: -12px;
     }
     /* active */
+    /* probabiliti */
+    .para {
+        width: 360px;
+        margin-right: 30px;
+    }
+    .probabiliti-block {
+        justify-content: space-around;
+    }
+    .difficulti-case__title {
+        margin-bottom: 10px;
+        padding-top: 0px;
+    }
+    .problem-list__block {
+        margin-right: 27px;
+    }
+    .list__problem--item {
+        font-size: 14px;
+        line-height: 20px;
+        width: 240px;
+        padding-left: 10px;
+    }
+    .list__problem--item::before {
+        height: 5px;
+        width: 5px;
+        top: 18px;
+    }
+    /* probabiliti */
 }
 
 @media (max-width:1120px) {
@@ -370,6 +429,28 @@
         right: -12px;
     }
     /* active */
+    /* probabiliti */
+    .para {
+        width: 270px;
+        margin-right: 25px;
+    }
+    .difficulti-case__title {
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+    .problem-list__block {
+        margin-right: 27px;
+    }
+    .list__problem--item {
+        font-size: 12px;
+        line-height: 16px;
+        width: 200px;
+        padding-left: 10px;
+    }
+    .list__problem--item::before {
+        top: 12px;
+    }
+    /* probabiliti */
 }
 
 @media (max-width:870px) {
@@ -446,6 +527,47 @@
         padding: 15px 30px !important;
     }
     /* navigation */
+    /* probabiliti */
+    .probabiliti-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .para {
+        display: none;
+    }
+    .difficulti-case__title {
+        margin-bottom: 40px;
+        width: 230px;
+    }
+    .difficulti-case__title {
+        width: 292px;
+    }
+    .problem-list {
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .problem-list__block {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    .list__problem--item {
+        font-size: 16px;
+        line-height: 22px;
+        width: 270px;
+        padding-left: 25px;
+        border-top: 1px solid #E7E7E7;
+        border-bottom: none !important;
+    }
+    .list__problem--item::before {
+        height: 11px;
+        width: 16px;
+        background: url(../img/probiliti/green-ok.png);
+        background-repeat: no-repeat;
+        top: 11px;
+        left: 6px;
+    }
+    /* probabiliti */
     /* get-a-loan */
     .get-a-loan-title {
         margin-bottom: 40px;
@@ -479,6 +601,11 @@
         width: 190px;
     }
     /* active */
+    /* brobabiliti */
+    .difficulti-case__title {
+        width: 230px;
+    }
+    /* brobabiliti */
     /* get-a-loan */
     .get-a-loan-title {
         width: 235px;
