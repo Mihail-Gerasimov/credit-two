@@ -10,6 +10,16 @@
         width: 660px;
     }
     /* hader */
+    /* ninety-five */
+    .congratulation-picture {
+        width: 800px;
+    }
+    .okrujnost {
+        max-width: 1068px;
+        bottom: -759px;
+        left: -205px;
+    }
+    /* ninety-five */
 }
 
 @media (max-width:1660px) {
@@ -33,6 +43,41 @@
         padding-bottom: 50px;
     }
     /* header */
+    /* ninety-five */
+    .okrujnost {
+        max-width: 900px;
+        bottom: -624px;
+        left: -165px;
+    }
+    .abcolute-sale {
+        top: 30px;
+        width: 265px;
+    }
+    .sale__title {
+        font-size: 60px;
+        line-height: 91px;
+    }
+    .sale__title::before {
+        width: 164px;
+        left: -20px;
+    }
+    .sale__probabiliti {
+        font-size: 26px;
+        line-height: 38px;
+        width: 165px;
+    }
+    .information-brief__one {
+        width: 479px;
+        font-size: 16px;
+        line-height: 160%;
+    }
+    .information-brief__two {
+        font-size: 33px;
+        line-height: 47px;
+        margin-bottom: 60px;
+        width: 485px;
+    }
+    /* ninety-five */
 }
 
 @media (max-width:1570px) {
@@ -134,6 +179,42 @@
         right: 40px;
     }
     /* get-a-loan */
+    /* ninety-five */
+    .okrujnost {
+        max-width: 736px;
+        bottom: -535px;
+        left: -163px;
+    }
+    .abcolute-sale {
+        top: 30px;
+        width: 194px;
+    }
+    .sale__title {
+        font-size: 44px;
+        line-height: 59px;
+    }
+    .sale__title::before {
+        width: 123px;
+        left: -15px;
+        top: 68px;
+    }
+    .sale__probabiliti {
+        font-size: 20px;
+        line-height: 26px;
+        width: 127px;
+    }
+    .information-brief__one {
+        width: 400px;
+        font-size: 14px;
+        line-height: 135%;
+    }
+    .information-brief__two {
+        font-size: 24px;
+        line-height: 35px;
+        margin-bottom: 40px;
+        width: 330px;
+    }
+    /* ninety-five */
 }
 
 @media (max-width:1450px) {

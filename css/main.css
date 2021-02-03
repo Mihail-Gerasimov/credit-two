@@ -415,6 +415,56 @@ button:focus {
 /* active */
 
 
+/* probabiliti */
+
+.probabiliti {
+    /* margin-bottom: 70px; */
+}
+
+.para {
+    margin-right: 75px;
+    margin-left: -40px;
+}
+
+.difficulti-case__title {
+    margin-bottom: 40px;
+    width: 580px;
+    padding-top: 20px;
+}
+
+.problem-list__block {
+    margin-right: 80px;
+}
+
+.list__problem--item {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 350px;
+    position: relative;
+}
+
+.list__problem--item:nth-child(2) {
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.list__problem--item::before {
+    position: absolute;
+    content: '';
+    height: 8px;
+    width: 8px;
+    background: #08A652;
+    top: 27px;
+    left: 0;
+    border-radius: 50%;
+}
+
+
+/* probabiliti */
+
+
 /* get-a-loan */
 
 .get-a-loan {
@@ -505,51 +555,92 @@ button:focus {
 /* get-a-loan */
 
 
-/* probabiliti */
+/* ninety-five */
 
-.probabiliti {
-    /* margin-bottom: 70px; */
+.ninety-five .container-big {
+    margin-left: -150px;
 }
 
-.para {
-    margin-right: 75px;
-    margin-left: -40px;
+.ninety-five-block {
+    margin-left: 240px;
 }
 
-.difficulti-case__title {
-    margin-bottom: 40px;
-    width: 580px;
-    padding-top: 20px;
+.congratulation {
+    z-index: 1;
+    margin-right: 65px;
 }
 
-.problem-list__block {
-    margin-right: 80px;
+.okrujnost {
+    z-index: -1;
+    max-width: 1272px;
+    bottom: -861px;
+    left: -205px;
 }
 
-.list__problem--item {
-    padding-left: 20px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    width: 350px;
+.abcolute-sale {
+    top: 30px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9B73DC;
+    border-radius: 50%;
+    padding: 20px;
+    width: 284px;
+}
+
+.sale__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 101px;
+    color: #ffffff;
+    margin-bottom: 17px;
     position: relative;
 }
 
-.list__problem--item:nth-child(2) {
-    border-top: 1px solid #E7E7E7;
-    border-bottom: 1px solid #E7E7E7;
-}
-
-.list__problem--item::before {
-    position: absolute;
+.sale__title::before {
+    width: 190px;
+    height: 2px;
     content: '';
-    height: 8px;
-    width: 8px;
-    background: #08A652;
-    top: 27px;
-    left: 0;
-    border-radius: 50%;
+    position: absolute;
+    display: table;
+    background-color: #FFFFFF;
+    top: 105px;
+    left: -20px;
+}
+
+.sale__probabiliti {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 190px;
+}
+
+.ninety-five__information {
+    padding-top: 30px;
+}
+
+.information-brief__one {
+    width: 540px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.information-brief__two {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 85px;
+    width: 485px;
+}
+
+.brief__three--color {
+    color: #08A652;
+    ;
 }
 
 
-/* probabiliti */
+/* ninety-five */
