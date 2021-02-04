@@ -12,7 +12,7 @@
     /* hader */
     /* ninety-five */
     .congratulation-picture {
-        width: 800px;
+        width: 674px;
     }
     .okrujnost {
         max-width: 1068px;
@@ -180,6 +180,9 @@
     }
     /* get-a-loan */
     /* ninety-five */
+    .congratulation-picture {
+        width: 506px;
+    }
     .okrujnost {
         max-width: 736px;
         bottom: -535px;
@@ -396,6 +399,49 @@
         top: 18px;
     }
     /* probabiliti */
+    /* ninety-five */
+    .congratulation {
+        z-index: 1;
+        margin-right: 60px;
+    }
+    .congratulation-picture {
+        width: 384px;
+    }
+    .okrujnost {
+        max-width: 520px;
+        bottom: -370px;
+        left: -99px;
+    }
+    .abcolute-sale {
+        top: 35px;
+        width: 152px;
+    }
+    .sale__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .sale__title::before {
+        width: 93px;
+        left: -15px;
+        top: 45px;
+    }
+    .sale__probabiliti {
+        font-size: 15px;
+        line-height: 20px;
+        width: 95px;
+    }
+    .information-brief__one {
+        width: 330px;
+        font-size: 13px;
+        line-height: 120%;
+    }
+    .information-brief__two {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 25px;
+        width: 275px;
+    }
+    /* ninety-five */
 }
 
 @media (max-width:1120px) {
@@ -532,6 +578,38 @@
         top: 12px;
     }
     /* probabiliti */
+    /* ninety-five */
+    .ninety-five-block {
+        margin-left: 0px;
+    }
+    .ninety-five .container-big {
+        margin-left: 0px;
+    }
+    .ninety-five__information {
+        padding-top: 0px;
+    }
+    .ninety-five__information img {
+        width: 300px;
+    }
+    .information-brief__one {
+        width: 275px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .information-brief__one br {
+        display: block;
+    }
+    .information-brief__two {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 60px;
+        width: 274px;
+    }
+    .abcolute-sale {
+        top: 83px;
+        right: 18px;
+    }
+    /* ninety-five */
 }
 
 @media (max-width:870px) {
@@ -773,4 +851,27 @@
         right: 40px;
     }
     /* get-a-loan */
+    /* ninety-five */
+    .abcolute-sale {
+        top: 57px;
+        right: -57px;
+        width: 199px;
+    }
+    .sale__title {
+        font-size: 48px;
+        line-height: 67px;
+    }
+    .sale__title::before {
+        width: 112px;
+        left: -6px;
+        top: 71px;
+    }
+    .sale__probabiliti {
+        font-size: 18px;
+        line-height: 25px;
+        width: 115px;
+    }
+    .ninety-five .container-big {
+        padding: 0 20px;
+    }
 }

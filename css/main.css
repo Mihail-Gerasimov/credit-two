@@ -629,6 +629,10 @@ button:focus {
     line-height: 170%;
 }
 
+.information-brief__one br {
+    display: none;
+}
+
 .information-brief__two {
     font-weight: 400;
     font-size: 36px;
@@ -644,3 +648,25 @@ button:focus {
 
 
 /* ninety-five */
+
+
+/* reviews */
+
+.reviews {
+    margin-bottom: 180px;
+}
+
+.reviews-title {
+    margin-bottom: 85px;
+}
+
+.fancybox-button--arrow_left,
+.fancybox-button--arrow_right,
+.fancybox-infobar,
+.fancybox-button--play,
+.fancybox-button--thumbs {
+    display: none;
+}
+
+
+/* reviews */
