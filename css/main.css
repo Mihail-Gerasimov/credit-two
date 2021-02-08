@@ -668,5 +668,35 @@ button:focus {
     display: none;
 }
 
+.video-block--beneral {
+    border: 1px solid #D8E3ED;
+    border-radius: 12px;
+    padding: 25px 10px 0;
+    margin: 20px 20px;
+}
+
+.reviews .slick-slide {
+    padding-bottom: 25px;
+}
+
+.video-block__title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.video-block__date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C8C8C8;
+}
+
+.block--slider__card {
+    margin: 0 auto;
+    transform: translateY(25px);
+    border-radius: 12px;
+}
+
 
 /* reviews */
