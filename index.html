@@ -132,6 +132,72 @@
                 </div>
             </div>
         </section>
+        <section class="calc">
+
+            <div class="container calc__container">
+                <div class="row calc__row">
+                    <div class="calc__box calc__box--left">
+                        <div class="calc__box--left-wrap">
+                            <h3 class="calc__title">Деньги на любые цели</h3>
+                            <div class="calc__input-group calc__input-group--top">
+                                <p class="calc__input-text-left"><label for="sum">СУММА КРЕДИТА</label></p>
+                                <p class="calc__input-text-right">₽</p>
+                                <input id="sum" type="text" value="5000000" class="calc__input calc__input--sum">
+                                <div class="kviz__ansver active no_change">
+                                    <div class="range-box">
+                                        <div class="range">
+                                            <span class="range__track range__track--sum"></span>
+                                            <input class="range__input range__input--sum" type="range" min="300000" max="20000000" value="5000000" step="1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="calc__input-row">
+                                    <p class="calc__input-text">от 300 тыс.</p>
+                                    <p class="calc__input-text">до 20 млн.</p>
+                                </div>
+                            </div>
+                            <!-- /.calc__input-group -->
+
+                            <div class="calc__input-group">
+                                <p class="calc__input-text-left"><label for="time">СРОК КРЕДИТА</label></p>
+                                <p class="calc__input-text-right calc__input-text-right--date">лет</p>
+                                <input id="time" type="text" value="5" class="calc__input calc__input--time">
+                                <div class="kviz__ansver active no_change">
+                                    <div class="range-box">
+                                        <div class="range">
+                                            <span class="range__track range__track--time"></span>
+                                            <input class="range__input range__input--time" type="range" min="1" max="10" value="5" step="1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="calc__input-row">
+                                    <p class="calc__input-text">от 1 года</p>
+                                    <p class="calc__input-text">до 10 лет.</p>
+                                </div>
+                            </div>
+                            <!-- /.calc__input-group -->
+                        </div>
+                        <p class="calc__description">Расчет калькулятора произведен по ставкам, действующим при условии оформления финансовой защиты к кредиту. Не является публичной офертой.</p>
+                    </div>
+
+                    <div class="calc__box calc-offer">
+                        <div class="calc-offer__wrap">
+                            <h5 class="calc-offer__title">Наше предложение</h5>
+                            <div class="calc-offer__box calc-offer__rate">
+                                <p class="calc-offer__text">Процентная ставка</p>
+                                <p class="calc-offer__rate-number">4%</p>
+                            </div>
+                            <div class="calc-offer__box calc-offer__pt">
+                                <p class="calc-offer__text">Ежемесячный платеж</p>
+                                <p class="calc__pt">0 ₽</p>
+                            </div>
+                        </div>
+                        <button class="calc__button">Заполнить заявку</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
         <section class="probabiliti">
             <div class="container">
                 <div class="probabiliti-block d-flex">
@@ -254,6 +320,117 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="stages">
+
+            <div class="conatiner-big stages__container">
+                <div class="stages__card stages__card-main">
+                    <h4 class="stages__card-title">Работаем</h4>
+                    <h3 class='stages__card-title--big'>в 3 этапа</h3>
+                </div>
+                <div class="stages__card stages__card--border stages__card--border-1">
+                    <div class="stages__card-content">
+                        <h5 class="stages__card-content-title">1. Вы заполняете заявку на сайте.</h5>
+                        <p class="stages__card-content-text">Наш сотрудник свяжется с вами в течение 10 минут, чтобы проанализировать ситуацию и составить план действий.</p>
+                    </div>
+                </div>
+                <div class="stages__card stages__card--border stages__card--border-2">
+                    <div class="stages__card-content">
+                        <h5 class="stages__card-content-title">2. Мы организовываем встречу в офисе</h5>
+                        <p class="stages__card-content-text">Чтобы обсудить подходящие условия для оформления кредита и заключить договор.</p>
+                    </div>
+                </div>
+                <div class="stages__card stages__card--border stages__card--border-3">
+                    <div class="stages__card-content">
+                        <h5 class="stages__card-content-title">3. Вы получаете заём</h5>
+                        <p class="stages__card-content-text">Отправляем заявку, получаем одобрение, и банк выдает вам кредит.</p>
+                    </div>
+                </div>
+                <div class="stages__img"><img src="./img/stages/catalog.png" alt="catalog"></div>
+            </div>
+
+        </section>
+        <section class="quiz">
+            <div class="quiz__ring--mobile"><img src="img/quiz/ringMobile.png" alt="ring"></div>
+            <div class="quiz__circle--mobile"><img src="img/quiz/circleMobile.png" alt="circle"></div>
+            <div class="quiz__ring"><img src="img/quiz/ring.png" alt="ring"></div>
+            <div class="quiz__circle"><img src="img/quiz/circle.png" alt="circle"></div>
+            <div class="container quiz__container">
+                <h5 class="quiz__title"><span>Ответьте на несколько вопросов,</span> чтобы узнать с какой процентной ставкой вам могут одобрить кредит.</h5>
+                <button class="quiz__button">Рассчитать <span>процентную</span> ставку</button>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container info__container">
+                <h3 class="info__title">Для тех, кто хочет получить кредит <span>быстро и выгодно</span></h3>
+                <div class="info__card info__card--white">
+                    <h5 class="info__card-title info__card-title--pink">ВЫ ОБРАТИЛИСЬ В БАНК</h5>
+                    <p class="info__text">Вы обратились в 3-5 банков и получили отказ. После десятой попытки вам одобрили заём.</p>
+                    <ul class='info__ul'>
+                        <li class="info__li">Сумма: <span>600 тысяч</span> рублей </li>
+                        <li class="info__li">Ежемесячный платеж: <span>17,5 тысяч</span> рублей</li>
+                        <li class="info__li">Процент по кредиту: <span>19,1%</span></li>
+                        <li class="info__li">Страховка: <span>-10%</span> от одобренной суммы</li>
+                    </ul>
+                    <p class="info__text">В результате у вас есть 540 тысяч рублей, 2-3 потраченных дня и бессчетное количество потраченных нервов.</p>
+                </div>
+
+                <div class="info__card info__card--green">
+                    <h5 class="info__card-title">Как работаем мы</h5>
+                    <p class="info__text">Оформляем все документы за вас. Отправляем заявки в банки-партнеры и в течение 1 дня получаем одобрения. Вы выбираете подходящий банк.</p>
+                    <ul class='info__ul'>
+                        <li class="info__li">Сумма: <span>600 тысяч</span> рублей </li>
+                        <li class="info__li">Ежемесячный платеж: <span>9 тысяч</span> рублей</li>
+                        <li class="info__li">Процент по кредиту: <span> 4%</span></li>
+                        <li class="info__li">Страховка: <span>0%</span></li>
+                    </ul>
+                    <p class="info__text">В результате вы спокойно и счастливо получаете 600 тысяч рублей на руки. Без затрат времени и нервов.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section questions">
+            <div class="questions__container">
+                <div class="row questions__row">
+                    <div class="questions__box questions__box-girl"><img src="img/questions/girl.png" alt="girl"></div>
+
+                    <div class="questions__box">
+                        <h3 class="questions__title">У нас часто спрашивают:</h3>
+                        <div class="questions__question">
+                            <p class="questions__question-title questions__question-title--active">Нужно ли предоставлять справку с работы, чтобы получить кредит с вашей помощью?</p>
+                            <p class="questions__question-content questions__question-content--active">Нет. Из документов нужен только паспорт. Оформить кредит можно и без справки 2-НДФЛ от работодателя.</p>
+                        </div>
+                        <!-- /.questions__question -->
+                        <div class="questions__question">
+                            <p class="questions__question-title">Вы работаете со всеми заемщиками или есть требования?</p>
+                            <p class="questions__question-content">Нет. Из документов нужен только паспорт. Оформить кредит можно и без справки 2-НДФЛ от работодателя. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora nulla maiores beatae necessitatibus dolorum, debitis
+                                pariatur tempore accusantium ratione omnis ullam velit? Quasi vitae eligendi, qui ea corrupti et?Нет. Из документов нужен только паспорт. Оформить кредит можно и без справки 2-НДФЛ от работодателя. Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Ipsam tempora nulla maiores beatae necessitatibus dolorum, debitis pariatur tempore accusantium ratione omnis ullam velit? Quasi vitae eligendi, qui ea corrupti et?Нет. Из документов нужен
+                                только паспорт. Оформить кредит можно и без справки 2-НДФЛ от работодателя. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora nulla maiores beatae necessitatibus dolorum, debitis pariatur tempore accusantium
+                                ratione omnis ullam velit? Quasi vitae eligendi, qui ea corrupti et?</p>
+                        </div>
+                        <!-- /.questions__question -->
+                        <div class="questions__question">
+                            <p class="questions__question-title">А если банк откажет, я должен буду заплатить вам за услуги?</p>
+                            <p class="questions__question-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, enim harum, error placeat, quam neque non culpa quae reiciendis quibusdam quaerat. Suscipit, minus voluptate sed sit unde amet asperiores non! Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Aliquid fugit dicta consectetur esse itaque! Pariatur perferendis alias ipsam earum quisquam veritatis doloribus esse nobis, quam id inventore ea soluta a! Нет. Из документов
+                                нужен только паспорт. Оформить кредит можно и без справки 2-НДФЛ от работодателя.</p>
+                        </div>
+                        <!-- /.questions__question -->
+                        <div class="questions__question">
+                            <p class="questions__question-title">Если у меня есть просроченные кредиты и банки постоянно отказывают, могу ли я обратиться за помощью к вам?</p>
+                            <p class="questions__question-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum velit quos minima ab eius eligendi a asperiores sequi ipsa, quo unde molestiae voluptate praesentium corrupti? Suscipit delectus eveniet consequuntur et.
+                                Нет. Из документов нужен только паспорт. Оформить кредит можно и без справки 2-НДФЛ от работодателя.</p>
+                        </div>
+                        <!-- /.questions__question -->
+                        <div class="questions__question">
+                            <p class="questions__question-title">А есть ли скидки на ваши услуги? Как их можно получить?</p>
+                            <p class="questions__question-content">Нет. Из документов нужен только паспорт. Оформить кредит можно и без справки 2-НДФЛ от работодателя.</p>
+                        </div>
+                        <!-- /.questions__question -->
+                    </div>
+                </div>
+            </div>
+
         </section>
         <section class="reviews">
             <div class="container">
