@@ -18,6 +18,79 @@
 </head>
 
 <body>
+    <!-- modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- <div class="modal-header p-0 mb-4">
+                    <button type="button" class="close pr-0" data-dismiss="modal" aria-label="Close">
+                        <span class="pr-4" aria-hidden="true">Закрыть</span>
+                     </button>
+                </div> -->
+
+                <div class="modal-body p-0">
+                    <div class="modal-body--content d-flex justify-content-between align-items-center">
+
+
+                        <div class=" d-none d-lg-block">
+                            <h5 class="modal-title title-modal mb-2" id="staticBackdropLabel">Узнать <br> ставку!</h5>
+                            <p class="modat-text__information">Для получения заявок, оставьте номер телефона и ваше имя. Наш менеджер расскажет вам все подробнее.</p>
+                            <label class="label-radio">
+                                <input type="checkbox" name="people-number " class="real-radio "> 
+                                <div class="custom-radio"><img src="./img/modal/chek.svg" alt=""></div>
+                                <p class="custom-radio--text">Согласие на обработку своих <br> персональных данных</p>
+                                </label>
+                        </div>
+
+                        <div class="form-modal--footer">
+                            <!-- <div class="purple-modal">
+                                <img class="" src="./img/modal/purple.png" alt="">
+                            </div> -->
+                            <button type="button" class="close close-modal--btn pr-0" data-dismiss="modal" aria-label="Close">
+                                    <span class="pr-4" aria-hidden="true">Закрыть</span>
+                                 </button>
+
+                            <h5 class="modal-title title-modal mb-2 d-block d-lg-none" id="staticBackdropLabel">Узнать ставку!</h5>
+                            <p class="modat-text__information d-block d-lg-none">Для получения заявок, оставьте номер телефона и ваше имя. Наш менеджер расскажет вам все подробнее.</p>
+                            <form action="" class="d-flex flex-column mb-4 form-test--modal">
+                                <input class="mb-4 pl-4 py-3 style-input" type="text" placeholder="Ваше Имя">
+                                <input class=" pl-4 py-3 style-input" type="text" placeholder="+7 (___) ___ - __ - __">
+                            </form>
+
+                            <label class="label-radio d-flex d-lg-none">
+                                <input type="checkbox" name="people-number " class="real-radio "> 
+                                <div class="custom-radio"><img src="./img/modal/chek.svg" alt=""></div>
+                                <p class="custom-radio--text">Согласие на обработку своих <br> персональных данных</p>
+                                </label>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary m-0">Оставить заявку</button>
+                            </div>
+
+                            <!-- <div class="green-modal">
+                                <img class="" src="./img/modal/green.png" alt="">
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-thanks" style="display: none;">
+        <div class="modal-thanks__content d-flex flex-column align-items-center justify-content-center">
+            <h5 class="modal-title title-modal mb-4 text-center" id="staticBackdropLabel">Заявка<br>отправлена
+            </h5>
+            <p class="thanks__content--text">
+                Мы получили вашу заявку.<br>Наш менеджер свяжится с вами.
+            </p>
+        </div>
+    </div>
+    <!-- modal -->
+
+
 
     <nav class="navbar navbar-expand-md navbar-light px-0 py-4 py-xl-5">
         <div class="container px-2">
@@ -36,22 +109,22 @@
                 <ul class="navbar-nav">
                     <!-- active -->
                     <li class="nav-item ">
-                        <a class="nav-link mt-4 mt-md-0 mb-3 mb-md-0" href="#">Преимущества</a>
+                        <a class="nav-link mt-4 mt-md-0 mb-3 mb-md-0" href="#active">Преимущества</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mb-3 mb-md-0" href="#">Условия</a>
+                        <a class="nav-link mb-3 mb-md-0" href="#probabiliti">Условия</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mb-3 mb-md-0" href="#">О компании</a>
+                        <a class="nav-link mb-3 mb-md-0" href="#ninety-five">О компании</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mb-3 mb-md-0 " href="#">Как получить</a>
+                        <a class="nav-link mb-3 mb-md-0 " href="#quiz">Как получить</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mb-3 mb-md-0 " href="#">FAQ</a>
+                        <a class="nav-link mb-3 mb-md-0 " href="#questions">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  mb-4 mb-md-0" href="#">Отзывы</a>
+                        <a class="nav-link  mb-4 mb-md-0" href="#reviews">Отзывы</a>
                     </li>
                 </ul>
 
@@ -67,6 +140,7 @@
 
         </div>
     </nav>
+
     <header>
         <div class="container-big">
             <div class="approval text-center text-lg-left d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end">
@@ -85,7 +159,7 @@
                         </li>
                     </ul>
 
-                    <button class="approval-btn btn-medium px-0">Получить заявку</button>
+                    <button class="approval-btn btn-medium px-0" data-toggle="modal" data-target="#staticBackdrop">Получить заявку</button>
                 </div>
                 <div class="approval-picture">
                     <div class="approval-picture__subblock position-relative ">
@@ -98,7 +172,7 @@
     </header>
 
     <main>
-        <section class="active">
+        <section id="active" class="active">
             <div class="container">
                 <div class="active-block d-flex justify-content-center justify-content-lg-between align-items-center align-items-lg-start flex-lg-row flex-column">
 
@@ -192,13 +266,13 @@
                                 <p class="calc__pt">0 ₽</p>
                             </div>
                         </div>
-                        <button class="calc__button">Заполнить заявку</button>
+                        <button class="calc__button" data-toggle="modal" data-target="#staticBackdrop">Заполнить заявку</button>
                     </div>
                 </div>
             </div>
 
         </section>
-        <section class="probabiliti">
+        <section id="probabiliti" class="probabiliti">
             <div class="container">
                 <div class="probabiliti-block d-flex">
                     <img src="./img/probiliti/para.jpg" alt="" class="para">
@@ -296,7 +370,7 @@
                 </div>
             </div>
         </section>
-        <section class="ninety-five overflow-hidden mb-3">
+        <section id="ninety-five" class="ninety-five overflow-hidden mb-3">
             <div class="container-big">
                 <div class="ninety-five-block d-flex justify-content-center justify-content-lg-start">
                     <div class="congratulation position-relative d-none d-lg-flex align-items-end ">
@@ -316,7 +390,7 @@
                         </div>
                         <img src="./img/ninety-five/mobile-happy.png" class="d-block d-lg-none mb-4" alt="">
                         <p class="information-brief__two">Если другие банки отказали, мы поможем вам оформить кредит от <span class="brief__three--color">4%</span> на любые цели. Просто отправьте заявку.</p>
-                        <button class="approval-btn btn-medium px-0 d-none d-lg-block">Отправить заявку</button>
+                        <button class="approval-btn btn-medium px-0 d-none d-lg-block" data-toggle="modal" data-target="#staticBackdrop">Отправить заявку</button>
                     </div>
                 </div>
             </div>
@@ -350,7 +424,7 @@
             </div>
 
         </section>
-        <section class="quiz">
+        <section id="quiz" class="quiz">
             <div class="quiz__ring--mobile"><img src="img/quiz/ringMobile.png" alt="ring"></div>
             <div class="quiz__circle--mobile"><img src="img/quiz/circleMobile.png" alt="circle"></div>
             <div class="quiz__ring"><img src="img/quiz/ring.png" alt="ring"></div>
@@ -388,7 +462,7 @@
                 </div>
             </div>
         </section>
-        <section class="section questions">
+        <section id="questions" class="section questions">
             <div class="questions__container">
                 <div class="row questions__row">
                     <div class="questions__box questions__box-girl"><img src="img/questions/girl.png" alt="girl"></div>
@@ -432,7 +506,7 @@
             </div>
 
         </section>
-        <section class="reviews">
+        <section id="reviews" class="reviews">
             <div class="container">
                 <h2 class="title-medium reviews-title">Отзывы наших клиентов</h2>
 
@@ -442,8 +516,8 @@
                             <h2 class="video-block__title">Павел Титов</h2>
                             <p class="video-block__date">Отзыв добавлен / 22.12.2020</p>
 
-                            <a data-fancybox="certificates" class="block--slider__link" href="video/first-ot.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
-                                <img class="block--slider__card" src="img/reviews/1.png" alt="картинка">
+                            <a data-fancybox="certificates" class="block--slider__link" href="video/1.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
+                                <img class="block--slider__card" src="video/1-1.jpg" alt="картинка">
                             </a>
 
                         </div>
@@ -452,8 +526,8 @@
                         <div class="video-block--beneral position-relative ">
                             <h2 class="video-block__title">Павел Титов</h2>
                             <p class="video-block__date">Отзыв добавлен / 22.12.2020</p>
-                            <a data-fancybox="certificates" class="block--slider__link" href="video/second-ot.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
-                                <img class="block--slider__card" src="img/reviews/2.png" alt="картинка">
+                            <a data-fancybox="certificates" class="block--slider__link" href="video/2.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
+                                <img class="block--slider__card" src="video/2-2.jpg" alt="картинка">
                             </a>
 
                         </div>
@@ -462,8 +536,8 @@
                         <div class="video-block--beneral position-relative  ">
                             <h2 class="video-block__title">Павел Титов</h2>
                             <p class="video-block__date">Отзыв добавлен / 22.12.2020</p>
-                            <a data-fancybox="certificates" class="block--slider__link" href="video/thirt-ot.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
-                                <img class="block--slider__card " src="img/reviews/3.png" alt="картинка">
+                            <a data-fancybox="certificates" class="block--slider__link" href="video/3.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
+                                <img class="block--slider__card" src="video/3-3.jpg" alt="картинка">
                             </a>
 
                         </div>
@@ -472,8 +546,8 @@
                         <div class="video-block--beneral position-relative ">
                             <h2 class="video-block__title">Павел Титов</h2>
                             <p class="video-block__date">Отзыв добавлен / 22.12.2020</p>
-                            <a data-fancybox="certificates" class="block--slider__link" href="video/fours-ot.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
-                                <img class="block--slider__card " src="img/reviews/4.png" alt="картинка">
+                            <a data-fancybox="certificates" class="block--slider__link" href="video/4.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
+                                <img class="block--slider__card" src="video/4-4.jpg" alt="картинка">
                             </a>
 
                         </div>
@@ -482,24 +556,61 @@
                         <div class="video-block--beneral position-relative  ">
                             <h2 class="video-block__title">Павел Титов</h2>
                             <p class="video-block__date">Отзыв добавлен / 22.12.2020</p>
-                            <a data-fancybox="certificates" class="block--slider__link" href="video/fours-ot.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
-                                <img class="block--slider__card " src="img/reviews/5.png" alt="картинка">
+                            <a data-fancybox="certificates" class="block--slider__link" href="video/5.mp4" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
+                                <img class="block--slider__card" src="video/5-5.jpg" alt="картинка">
                             </a>
 
                         </div>
                     </div>
                 </div>
-                <div class="slick-arrows">
-                    <div class="prev"></div>
+
+                <div class="slick-arrows d-flex d-sm-none justify-content-between align-items-baseline mt-4">
+                    <div class="prev"><img src="./img/reviews/right.png" alt=""></div>
                     <div class="dots"></div>
-                    <div class="next"></div>
+                    <div class="next"><img src="./img/reviews/right.png" alt=""></div>
                 </div>
             </div>
         </section>
-        <section></section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="tamtable-date d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center align-items-md-start">
+                <div class="logo-company">
+                    <img src="./img/footer/logo-footer.png" alt="">
+                </div>
+                <div class="timetable d-flex flex-column-reverse flex-md-column align-items-center">
+                    <ul class="navigation-footer d-flex align-items-center align-items-md-start flex-column flex-md-row">
+                        <li class="navigation-footer__item mb-1 mb-md-0">
+                            <a href="#active" class="footer__item--link mr-0 mr-md-2 mr-lg-3">Преимущества</a>
+                        </li>
+                        <li class="navigation-footer__item mb-1 mb-md-0">
+                            <a href="#probabiliti" class="footer__item--link mr-0 mr-md-2 mr-lg-3">Условия</a>
+                        </li>
+                        <li class="navigation-footer__item mb-1 mb-md-0">
+                            <a href="#ninety-five" class="footer__item--link mr-0 mr-md-2 mr-lg-3">О компании</a>
+                        </li>
+                        <li class="navigation-footer__item mb-1 mb-md-0">
+                            <a href="#quiz" class="footer__item--link mr-0 mr-md-2 mr-lg-3"> Как получить</a>
+                        </li>
+                        <li class="navigation-footer__item mb-1 mb-md-0">
+                            <a href="#questions" class="footer__item--link mr-0 mr-md-2 mr-lg-3">FAQ</a>
+                        </li>
+                        <li class="navigation-footer__item">
+                            <a href="#reviews" class="footer__item--link">Отзывы</a>
+                        </li>
+                    </ul>
+                    <div class="information-footer d-flex flex-column justify-content-center align-items-center">
+                        <p class="day text-center text-md-left">График работы: <br class="d-block d-md-none"> <span> ПН - СБ 8:00 - 21:00</span></p>
+                        <p class="footer-address">г. Казань, ул. Кремлевская, д. 12, оф. 512</p>
+                    </div>
+                </div>
+                <div class="button--foter">
+                    <button class="btn-medium footer-btn d-none d-md-block" data-toggle="modal" data-target="#staticBackdrop">Отправить заявку</button>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
