@@ -17,7 +17,6 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-
     // range + calc
 
     // маска
@@ -72,8 +71,6 @@ window.addEventListener('DOMContentLoaded', () => {
         getPayment(sum, period, 4);
     }
 
-
-
     function checkSymbols(input, event, maxValue) {
         input.addEventListener(event, () => {
             if (maxValue) {
@@ -89,7 +86,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     input.value = prettify(maxValue);
                 }
             }
-            if ((+sumInput.value.replace(/\D/g, '') >= 300000 && +sumInput.value.replace(/\D/g, '') <= 20000000) && (+timeInput.value.replace(/\D/g, '') >= 1 && +timeInput.value.replace(/\D/g, '') <= 10)) {
+            if ((+sumInput.value.replace(/\D/g, '') >= 100000 && +sumInput.value.replace(/\D/g, '') <= 20000000) && (+timeInput.value.replace(/\D/g, '') >= 1 && +timeInput.value.replace(/\D/g, '') <= 10)) {
                 calc();
             } else {
                 payt.textContent = '0';
@@ -117,8 +114,6 @@ window.addEventListener('DOMContentLoaded', () => {
     checkSymbols(timeInput, 'input', 10);
     checkSymbols(rangeSumInput, 'change');
     checkSymbols(rangeTimeInput, 'change');
-
-
 
 });
 
