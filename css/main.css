@@ -1052,6 +1052,12 @@ button:focus {
     padding: 70px 20px 100px 20px;
 } */
 
+.quiz-block-individ {
+    background: #F0F3F6;
+    position: relative;
+    padding: 70px 20px 100px 20px;
+}
+
 .quiz {
     background: #F0F3F6;
     position: absolute;
@@ -1073,10 +1079,22 @@ button:focus {
     display: none;
 }
 
+.quiz-block-individ .quiz__ring {
+    left: 0px;
+    bottom: -3px;
+    position: absolute;
+}
+
 .quiz__ring {
     left: 0px;
     bottom: 69px;
     position: absolute;
+}
+
+.quiz-block-individ .quiz__circle {
+    position: absolute;
+    top: -7px;
+    right: 46px;
 }
 
 .quiz__circle {

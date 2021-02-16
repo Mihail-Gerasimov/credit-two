@@ -1758,6 +1758,16 @@
         bottom: 0;
         transform: none;
     }
+    .quiz-block-individ .quiz__ring {
+        left: 0px;
+        bottom: 0px;
+        position: absolute;
+    }
+    .quiz-block-individ .quiz__circle {
+        position: absolute;
+        top: -7px;
+        right: 55px;
+    }
 }
 
 @media screen and (max-height: 700px) {
