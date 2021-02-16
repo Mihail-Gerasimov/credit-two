@@ -1045,10 +1045,20 @@ button:focus {
     background: #F0F3F6;
 }
 
-.quiz {
+
+/* .quiz {
     background: #F0F3F6;
     position: relative;
     padding: 70px 20px 100px 20px;
+} */
+
+.quiz {
+    background: #F0F3F6;
+    position: absolute;
+    padding: 0 !important;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .quiz--2,
@@ -1065,14 +1075,14 @@ button:focus {
 
 .quiz__ring {
     left: 0px;
-    bottom: 0;
+    bottom: 69px;
     position: absolute;
 }
 
 .quiz__circle {
     position: absolute;
-    top: 0;
-    right: 30px;
+    top: 60px;
+    right: 100px;
 }
 
 .quiz__ring--mobile {
@@ -1175,6 +1185,7 @@ button:focus {
     justify-content: flex-end;
     padding: 60px 280px 60px 0;
     height: 703px;
+    width: 1500px;
 }
 
 .quiz__input {
