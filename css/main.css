@@ -1690,6 +1690,7 @@ footer {
     padding: 35px 50px;
     background: #F0F3F6;
     overflow: hidden;
+    z-index: 2;
 }
 
 .modat-text__information {
@@ -1741,14 +1742,14 @@ footer {
 
 .form-modal--footer {
     border-radius: 20px;
-    background: linear-gradient( 101.94deg, rgba(255, 255, 255, 0.6) 26.27%, rgba(255, 255, 255, 0.25) 79.44%);
-    border: 1px solid #FFFFFF;
-    backdrop-filter: blur(35px);
-    filter: blur(10%);
+    backdrop-filter: blur(10px);
     display: flex;
     padding: 40px 45px;
     flex-direction: column;
     position: relative;
+    background: linear-gradient(101.94deg, rgba(255, 255, 255, 0.6) 26.27%, rgba(255, 255, 255, 0.25) 79.44%);
+    border: 1px solid #FFFFFF;
+    z-index: 2;
 }
 
 .close-modal--btn {
@@ -1773,7 +1774,7 @@ footer {
 .style-input {
     border: 1px solid #C8C8C8;
     border-radius: 6px;
-    width: 320px;
+    width: 320px !important;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -1813,13 +1814,15 @@ footer {
 .purple-modal {
     transform: translateX(-50%);
     position: absolute;
-    top: 75px;
-    left: 0;
+    top: 125px;
+    right: 340px;
+    z-index: 1;
 }
 
 .green-modal {
-    transform: translate(50%, 50%);
+    transform: translate(17%, 17%);
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index: 1;
 }

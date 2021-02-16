@@ -1001,6 +1001,16 @@
     .modal-dialog {
         margin: 0 auto !important;
     }
+    .purple-modal {
+        top: 63px;
+        right: 285px;
+    }
+    .green-modal {
+        transform: none;
+        right: -65px;
+        bottom: -14px;
+        width: 180px;
+    }
     /* modal */
 }
 
@@ -1501,12 +1511,20 @@
         padding: 10px 10px;
     }
     .style-input {
-        width: 260px;
+        width: 260px !important;
         font-size: 14px;
         line-height: 16px;
     }
     .modat-text__information {
         width: 250px;
+    }
+    .purple-modal {
+        top: 60px;
+        right: 213px;
+    }
+    .green-modal {
+        right: 28px;
+        bottom: -19px;
     }
     /* modal */
 }
@@ -1562,6 +1580,15 @@
         top: 30px;
         right: 32px;
     }
+    /* modal */
+    .purple-modal {
+        right: 165px;
+    }
+    .green-modal {
+        right: -63px;
+        bottom: -19px;
+    }
+    /* modal */
 }
 
 @media (max-width: 400px) {
