@@ -1748,10 +1748,22 @@
     .quiz__label:last-of-type {
         margin-bottom: 30px;
     }
-    .step {
+    /* .step {
         height: auto;
+    } */
+    .step {
+        height: 540px;
+    }
+    .quiz__input-text {
+        padding: 15px;
     }
     .quiz-tel {
+        margin-bottom: 20px;
+    }
+    .quiz-tel:hover {
+        margin-bottom: 20px;
+    }
+    .quiz-tel:focus {
         margin-bottom: 20px;
     }
     .quiz--success .quiz__box--img {

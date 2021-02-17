@@ -1282,6 +1282,10 @@ button:focus {
     border: 1px solid #E0E0E0;
 }
 
+.quiz-tel:hover:focus {
+    border: 1px solid #E0E0E0;
+}
+
 .step--9 {
     padding-top: 120px;
 }
